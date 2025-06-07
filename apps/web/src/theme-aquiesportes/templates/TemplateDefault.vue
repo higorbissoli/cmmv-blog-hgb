@@ -7,7 +7,7 @@
                     <!-- Logo -->
                     <div class="flex-shrink-0">
                         <a href="/" class="text-2xl font-bold text-white flex items-center">
-                            <img src="/src/theme-aquiesportes/assets/logo.png" width="auto" height="120" alt="Aquiesportes" title="Aquiesportes" class="h-[6.5rem] max-h-full">
+                            <img src="/src/theme-aquiesportes/assets/Logo.webp" width="auto" height="120" alt="Aquiesportes" title="Aquiesportes" class="h-[6.5rem] max-h-full">
                         </a>
                     </div>
 
