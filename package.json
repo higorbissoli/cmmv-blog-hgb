@@ -1,6 +1,6 @@
 {
     "name": "@cmmv/blog",
-    "version": "0.1.5",
+    "version": "0.1.49",
     "description": "Blog plugin for CMMV",
     "keywords": [
         "cmmv",
@@ -55,7 +55,7 @@
     "scripts": {
         "dev": "turbo run dev",
         "build:release": "turbo run build --filter=@cmmv/blog",
-        "build": "pnpm build:api && pnpm build:web",
+        "build": "pnpm build:api && pnpm build:web && pnpm build:admin",
         "build:api": "cd apps/api && pnpm build",
         "build:admin": "cd apps/admin && pnpm build",
         "build:web": "cd apps/web && pnpm build",
@@ -81,7 +81,7 @@
         "@changesets/cli": "^2.29.4",
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
-        "eslint": "^9.28.0",
+        "eslint": "^9.29.0",
         "husky": "^9.1.7",
         "prettier": "^3.5.3",
         "turbo": "^2.5.4"
